@@ -11,18 +11,60 @@ namespace Strings
         static void Main(string[] args)
         {
             //Trim, om spaties voor of achteraan een string te verwijderen
-            var testString = "  hjkhjkfhsd     ";
-            Console.WriteLine(testString);
-            Console.WriteLine(testString.Trim());
-            Console.WriteLine(testString.TrimEnd());
-            Console.WriteLine(testString.TrimStart());
+            var TestString = "  hjkhjkfhsd     ";
+            Console.WriteLine(TestString);
+            Console.WriteLine(TestString.Trim());
+            Console.WriteLine(TestString.TrimEnd());
+            Console.WriteLine(TestString.TrimStart());
 
 
-            var password = "P@ssw0rd";
+            var Password = "P@ssw0rd";
+            var Tekst = "abcdef";
+            Console.WriteLine(Tekst.ToUpper());
+            Console.WriteLine(Tekst.Substring(3));
+            Console.WriteLine(Tekst.Substring(0, 2));
+            Console.WriteLine(Tekst.Length);
 
 
-            Console.ReadLine();
+            //var Uitdaging = “  Je kan c# voor tekstmanipulatie gebruiken en dat is geweldig!   “;
+            //Twee voorloop spaties
+            //Drie naloop spaties op het einde
+            //Alle tekst Uppercase vanaf positie 52 tot 1 teken voor het einde.
+            //Maak gebruik van Length
+
+            var Uitdaging = "  Je kan c# voor tekstmanipulatie gebruiken en dat is geweldig!   ";
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //Console.WriteLine(Uitdaging.Trim().Substring(52,Uitdaging.Trim().Length-53).ToUpper().Trim());
+        Console.ReadLine();
 
         }
-    }
 }
